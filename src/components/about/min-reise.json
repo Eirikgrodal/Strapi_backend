@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_min_reises",
+  "info": {
+    "displayName": "Min_reise",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading_2": {
+      "type": "string"
+    },
+    "Small_text": {
+      "type": "string"
+    },
+    "min_reises": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::min-reise.min-reise"
+    }
+  }
+}

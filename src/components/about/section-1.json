@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_section_1s",
+  "info": {
+    "displayName": "Section_1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading_2": {
+      "type": "string"
+    },
+    "Paragraf": {
+      "type": "text"
+    },
+    "jobbet_meds": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::jobbet-med.jobbet-med"
+    }
+  }
+}

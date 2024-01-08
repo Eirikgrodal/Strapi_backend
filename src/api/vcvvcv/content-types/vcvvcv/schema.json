@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vcvvcvs",
+  "info": {
+    "singularName": "vcvvcv",
+    "pluralName": "vcvvcvs",
+    "displayName": "vcvvcv"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cvcv": {
+      "type": "string"
+    }
+  }
+}

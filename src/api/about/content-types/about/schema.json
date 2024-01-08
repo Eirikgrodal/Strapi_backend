@@ -1,0 +1,101 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Hero_header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-header",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Section_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.section-1",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Section_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.section-2",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Min_reise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.min-reise",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Utdanning": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.utdanning",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "jobbet_meds": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::jobbet-med.jobbet-med"
+    },
+    "min_reises": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::min-reise.min-reise"
+    },
+    "utdannings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::utdanning.utdanning"
+    },
+    "Section_2_bilde": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kategoris",
+  "info": {
+    "singularName": "kategori",
+    "pluralName": "kategoris",
+    "displayName": "Kategori",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "prosjekts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::prosjekt.prosjekt",
+      "inversedBy": "kategorises"
+    }
+  }
+}

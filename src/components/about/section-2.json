@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_section_2s",
+  "info": {
+    "displayName": "Section_2"
+  },
+  "options": {},
+  "attributes": {
+    "Heading_2": {
+      "type": "string"
+    },
+    "Paragraf": {
+      "type": "text"
+    },
+    "Bilde": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

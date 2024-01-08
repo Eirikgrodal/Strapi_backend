@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobbet_meds",
+  "info": {
+    "singularName": "jobbet-med",
+    "pluralName": "jobbet-meds",
+    "displayName": "Jobbet_med"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navn": {
+      "type": "string"
+    }
+  }
+}

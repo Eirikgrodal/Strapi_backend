@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_hero_hero_headers",
+  "info": {
+    "displayName": "Hero_header",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Hero_h1": {
+      "type": "string"
+    },
+    "Hero_paragraf": {
+      "type": "text"
+    }
+  }
+}

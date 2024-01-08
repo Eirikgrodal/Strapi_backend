@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_utdannings",
+  "info": {
+    "displayName": "Utdanning",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading_2": {
+      "type": "string"
+    },
+    "Small_text": {
+      "type": "string"
+    },
+    "utdannings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::utdanning.utdanning"
+    }
+  }
+}

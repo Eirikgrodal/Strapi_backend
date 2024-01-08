@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prosjekts",
+  "info": {
+    "singularName": "prosjekt",
+    "pluralName": "prosjekts",
+    "displayName": "Prosjekt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Bilde": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Dato": {
+      "type": "date"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "kategorises": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::kategori.kategori",
+      "mappedBy": "prosjekts"
+    }
+  }
+}
